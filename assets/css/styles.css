@@ -1521,8 +1521,3 @@ body.dark-theme {
   }
 }
 
-@media screen and (max-width: 320px) {
-  .home__social {
-    display: none;
-  }
-}
