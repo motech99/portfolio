@@ -1520,3 +1520,9 @@ body.dark-theme {
     right: 3rem;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .home__social {
+    display: none;
+  }
+}
