@@ -465,9 +465,10 @@ body.dark-theme {
   top: 0;
   bottom: 0;
   margin: auto 0;
-  display: grid;
-  row-gap: 1rem;
+  display: inline;
+
 }
+
 
 .home__social-link {
   background-color: var(--black-color-light);
@@ -477,7 +478,10 @@ body.dark-theme {
   display: grid;
   place-items: center;
   transition: background-color .3s;
+  margin-bottom: 20px;
 }
+
+
 
 .home__social-link:hover {
   background-color: var(--black-color);
@@ -1519,16 +1523,4 @@ body.dark-theme {
   .scrollup {
     right: 3rem;
   }
-}
-
-@media screen and (max-width: 320px) {
-  .home__social {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 321px) {
-  .home__social {
-    display: show;
-}
 }
